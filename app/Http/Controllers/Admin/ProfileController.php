@@ -5,12 +5,12 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class ProfileControll extends Controller
+class ProfileController extends Controller
 {
-    //
-     public function add()
-    {
-        return view('admin.profile.create');
+//
+ public function add()
+   {
+     return view('admin.profile.create');
     }
 
     public function create()
